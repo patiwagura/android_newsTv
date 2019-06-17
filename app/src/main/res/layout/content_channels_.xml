@@ -23,7 +23,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnK2" />
+        app:layout_constraintTop_toBottomOf="@+id/btnCitizen" />
 
     <Button
         android:id="@+id/btnAljezera"
@@ -32,7 +32,6 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:onClick="aljezeera_call"
         android:text="ALJEZEERA"
         android:textAlignment="center"
         android:textSize="50dp"
@@ -41,14 +40,14 @@
         app:layout_constraintTop_toBottomOf="@+id/btnK24" />
 
     <Button
-        android:id="@+id/btnK2"
+        android:id="@+id/btnCitizen"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:textAlignment="center"
-        android:text="K24 LIVE"
+        android:text="Citizen LIVE"
         android:textSize="50dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.546"
